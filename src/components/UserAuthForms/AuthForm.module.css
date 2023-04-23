@@ -1,0 +1,53 @@
+.container {
+  width: 50rem;
+  margin: 10rem auto;
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.2rem;
+  border-radius: 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1.6rem;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.form-control input:focus {
+  border: 1px solid #28b487;
+}
+
+.btn {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+}
+
+.checkAuth {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.checkAuth a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #28b487;
+}

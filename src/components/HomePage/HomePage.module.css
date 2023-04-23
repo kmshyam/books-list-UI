@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  font-size: 2.4rem;
+}
+
+.btn {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.books-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
